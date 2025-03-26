@@ -2,6 +2,50 @@
 
 ProXtyle is a modern, high-performance CSS framework designed to provide professional and seamless web styling. Built with flexibility, efficiency, and scalability in mind, it integrates smoothly with the ProX ecosystem, offering powerful utilities and responsive design capabilities to create visually stunning and dynamic web interfaces.
 
+<p align="center">
+  <!-- Project Information -->
+  <img src="https://img.shields.io/badge/ProXtyle-CSS%20Framework-blue">
+  <img src="https://img.shields.io/badge/Version-1.0-brightgreen">
+  <img src="https://img.shields.io/github/license/ProgrammerKR/ProXtyle">
+  <br>
+  
+  <!-- Repository Stats -->
+  <img src="https://img.shields.io/github/languages/code-size/ProgrammerKR/ProXtyle">
+  <img src="https://img.shields.io/github/repo-size/ProgrammerKR/ProXtyle">
+  <br>
+  
+  <img src="https://img.shields.io/github/stars/ProgrammerKR/ProXtyle?style=social">
+  <img src="https://img.shields.io/github/forks/ProgrammerKR/ProXtyle?style=social">
+  <img src="https://img.shields.io/github/issues/ProgrammerKR/ProXtyle">
+  <img src="https://img.shields.io/github/issues-pr/ProgrammerKR/ProXtyle">
+  <br>
+  
+  <!-- Community & Contributions -->
+  <img src="https://img.shields.io/github/contributors/ProgrammerKR/ProXtyle">
+  <img src="https://img.shields.io/github/last-commit/ProgrammerKR/ProXtyle">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen">
+  <br>
+  
+  <!-- Support & Social -->
+  <img src="https://img.shields.io/github/sponsors/ProgrammerKR">
+  <img src="https://img.shields.io/github/followers/ProgrammerKR?style=social">
+  <br>
+  
+  <!-- Issues & Requests -->
+  <a href="https://github.com/ProgrammerKR/ProXtyle/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc">
+    <img src="https://img.shields.io/github/issues/ProgrammerKR/ProXtyle/feature-request.svg" alt="Feature Requests">
+  </a>
+  <a href="https://github.com/ProgrammerKR/ProXtyle/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug">
+    <img src="https://img.shields.io/github/issues/ProgrammerKR/ProXtyle/bug.svg" alt="Bugs">
+  </a>
+  <br>
+  
+  <!-- GitHub Profile -->
+  <a href="https://github.com/ProgrammerKR">
+    <img src="https://img.shields.io/badge/GitHub-ProgrammerKR-%23ADD8E6?style=flat-square&logo=github" alt="ProgrammerKR GitHub">
+  </a>
+</p>
+
 ## Table of Contents
 
 - [Features](#features)
