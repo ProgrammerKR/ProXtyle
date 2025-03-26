@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://jenil.github.io/chota/logo.svg" />
+<img src="dist/favicon.png" />
 <br><br>
 A really small CSS framework
 <br><br>
