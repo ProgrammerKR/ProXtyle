@@ -1,5 +1,5 @@
 <p align="center">
-<img src="dist/favicon.png" />
+<img src="docs/favicon.png" />
 <br><br>
 A really small CSS framework
 <br><br>
