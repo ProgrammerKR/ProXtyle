@@ -2,6 +2,8 @@
 
 ### ProXtyle is a modern, high-performance CSS framework designed to provide professional and seamless web styling. Built with flexibility, efficiency, and scalability in mind, it integrates smoothly with the ProX ecosystem, offering powerful utilities and responsive design capabilities to create visually stunning and dynamic web interfaces.
 
+---
+
 <p align="center">
   <!-- Project Information -->
   <img src="https://img.shields.io/badge/ProXtyle-CSS%20Framework-blue">
@@ -42,6 +44,8 @@
     <img src="https://img.shields.io/badge/GitHub-ProgrammerKR-%23ADD8E6?style=flat-square&logo=github" alt="ProgrammerKR GitHub">
   </a>
 </p>
+
+--
 
 ## Table of Contents
 
