@@ -72,21 +72,11 @@ You can include ProXtyle in your project using a CDN or by installing it via npm
 Add the following `<link>` tag to your HTML file to include ProXtyle from a CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/proxtyle">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ProgrammerKR/ProXtyle@latest/dist/proxtyle.css">
 ```
 
-### Using npm
-
-Install ProXtyle via npm:
-
-```bash
-npm install proxtyle
-```
-
-Then, import it into your project:
-
-```css
-@import 'proxtyle/dist/proxtyle.min.css';
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ProgrammerKR/ProXtyle@latest/dist/proxtyle.min.css">
 ```
 
 ## Usage
@@ -99,7 +89,7 @@ ProXtyle provides a set of pre-defined classes and components to help you build 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/proxtyle">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ProgrammerKR/ProXtyle@latest/dist/proxtyle.min.css">
   <title>ProXtyle Example</title>
 </head>
 <body>
