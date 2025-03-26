@@ -7,29 +7,26 @@
   <img src="https://img.shields.io/badge/ProXtyle-CSS%20Framework-blue">
   <img src="https://img.shields.io/badge/Version-1.0-brightgreen">
   <img src="https://img.shields.io/github/license/ProgrammerKR/ProXtyle">
-  <br>
   
   <!-- Repository Stats -->
   <img src="https://img.shields.io/github/languages/code-size/ProgrammerKR/ProXtyle">
   <img src="https://img.shields.io/github/repo-size/ProgrammerKR/ProXtyle">
-  <br>
   
   <img src="https://img.shields.io/github/stars/ProgrammerKR/ProXtyle?style=social">
   <img src="https://img.shields.io/github/forks/ProgrammerKR/ProXtyle?style=social">
   <img src="https://img.shields.io/github/issues/ProgrammerKR/ProXtyle">
   <img src="https://img.shields.io/github/issues-pr/ProgrammerKR/ProXtyle">
-  <br>
   
   <!-- Community & Contributions -->
   <img src="https://img.shields.io/github/contributors/ProgrammerKR/ProXtyle">
   <img src="https://img.shields.io/github/last-commit/ProgrammerKR/ProXtyle">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen">
-  <br>
   
   <!-- Support & Social -->
   <img src="https://img.shields.io/github/sponsors/ProgrammerKR">
-  <img src="https://img.shields.io/github/followers/ProgrammerKR?style=social">
   <br>
+  <img src="https://img.shields.io/github/followers/ProgrammerKR?style=social">
+  
   
   <!-- Issues & Requests -->
   <a href="https://github.com/ProgrammerKR/ProXtyle/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc">
