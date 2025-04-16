@@ -1,30 +1,29 @@
 <p align="center">
-  <a href="https://getProXtyle.com/">
-    <img src="https://getProXtyle.com/docs/5.3/assets/brand/ProXtyle-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  <a href="https://getproxtyle.com/">
+    <img src="https://getproxtyle.com/docs/1.0/assets/brand/proxtyle-logo.png" alt="ProXtyle Logo" width="180" height="150">
   </a>
 </p>
 
-<h3 align="center">Bootstrap</h3>
+<h3 align="center">ProXtyle</h3>
 
 <p align="center">
-  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+  A sleek, lightweight, and professional front-end framework for building modern, responsive websites with ease.
   <br>
-  <a href="https://getProXtyle.com/docs/5.3/"><strong>Explore Bootstrap docs »</strong></a>
+  <a href="https://getproxtyle.com/docs/1.0/"><strong>Explore ProXtyle Docs »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/twbs/ProXtyle/issues/new?assignees=-&labels=bug&template=bug_report.yml">Report bug</a>
+  <a href="https://github.com/yourusername/proxtyle/issues/new?labels=bug">Report Bug</a>
   ·
-  <a href="https://github.com/twbs/ProXtyle/issues/new?assignees=&labels=feature&template=feature_request.yml">Request feature</a>
+  <a href="https://github.com/yourusername/proxtyle/issues/new?labels=feature">Request Feature</a>
   ·
-  <a href="https://themes.getProXtyle.com/">Themes</a>
+  <a href="https://themes.getproxtyle.com/">Themes</a>
   ·
-  <a href="https://blog.getProXtyle.com/">Blog</a>
+  <a href="https://blog.getproxtyle.com/">Blog</a>
 </p>
 
+## ProXtyle 
 
-## Bootstrap 5
-
-Our default branch is for development of our Bootstrap 5 release. Head to the [`v4-dev` branch](https://github.com/twbs/ProXtyle/tree/v4-dev) to view the readme, documentation, and source code for Bootstrap 4.
+Our default branch is for development of our Bootstrap 5 release. Head to the [`v4-dev` branch](https://github.com/ProgrammerKR/ProXtyle/tree/v4-dev) to view the readme, documentation, and source code for Bootstrap 4.
 
 
 ## Table of contents
@@ -37,7 +36,6 @@ Our default branch is for development of our Bootstrap 5 release. Head to the [`
 - [Contributing](#contributing)
 - [Community](#community)
 - [Versioning](#versioning)
-- [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
@@ -46,30 +44,27 @@ Our default branch is for development of our Bootstrap 5 release. Head to the [`
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/twbs/ProXtyle/archive/v5.3.3.zip)
-- Clone the repo: `git clone https://github.com/twbs/ProXtyle.git`
-- Install with [npm](https://www.npmjs.com/): `npm install ProXtyle@v5.3.3`
-- Install with [yarn](https://yarnpkg.com/): `yarn add ProXtyle@v5.3.3`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/ProXtyle:5.3.3`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package ProXtyle` Sass: `Install-Package ProXtyle.sass`
-
-Read the [Getting started page](https://getProXtyle.com/docs/5.3/getting-started/introduction/) for information on the framework contents, templates, examples, and more.
+- [Download the latest release](https://github.com/ProgrammerKR/ProXtyle/archive/v1.0.0.zip)
+- Clone the repo: `git clone https://github.com/ProgrammerKR/ProXtyle.git`
+- Install with [npm](https://www.npmjs.com/): `npm install ProXtyle@v1.0.0`
+- Install with [yarn](https://yarnpkg.com/): `yarn add ProXtyle@v1.0.0`
+- 
+Read the [Getting started page](https://getProXtyle.com/docs/1.0.0/getting-started/introduction/) for information on the framework contents, templates, examples, and more.
 
 
 ## Status
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/twbs/ProXtyle/js.yml?branch=main&label=JS%20Tests&logo=github)](https://github.com/twbs/ProXtyle/actions/workflows/js.yml?query=workflow%3AJS+branch%3Amain)
-[![npm version](https://img.shields.io/npm/v/ProXtyle?logo=npm&logoColor=fff)](https://www.npmjs.com/package/ProXtyle)
-[![Gem version](https://img.shields.io/gem/v/ProXtyle?logo=rubygems&logoColor=fff)](https://rubygems.org/gems/ProXtyle)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3AProXtyle-blue?logo=meteor&logoColor=fff)](https://atmospherejs.com/twbs/ProXtyle)
-[![Packagist Prerelease](https://img.shields.io/packagist/vpre/twbs/ProXtyle?logo=packagist&logoColor=fff)](https://packagist.org/packages/twbs/ProXtyle)
-[![NuGet](https://img.shields.io/nuget/vpre/ProXtyle?logo=nuget&logoColor=fff)](https://www.nuget.org/packages/ProXtyle/absoluteLatest)
-[![Coverage Status](https://img.shields.io/coveralls/github/twbs/ProXtyle/main?logo=coveralls&logoColor=fff)](https://coveralls.io/github/twbs/ProXtyle?branch=main)
-[![CSS gzip size](https://img.badgesize.io/twbs/ProXtyle/main/dist/css/ProXtyle.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/twbs/ProXtyle/blob/main/dist/css/ProXtyle.min.css)
-[![CSS Brotli size](https://img.badgesize.io/twbs/ProXtyle/main/dist/css/ProXtyle.min.css?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/twbs/ProXtyle/blob/main/dist/css/ProXtyle.min.css)
-[![JS gzip size](https://img.badgesize.io/twbs/ProXtyle/main/dist/js/ProXtyle.min.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/twbs/ProXtyle/blob/main/dist/js/ProXtyle.min.js)
-[![JS Brotli size](https://img.badgesize.io/twbs/ProXtyle/main/dist/js/ProXtyle.min.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/twbs/ProXtyle/blob/main/dist/js/ProXtyle.min.js)
-[![Backers on Open Collective](https://img.shields.io/opencollective/backers/ProXtyle?logo=opencollective&logoColor=fff)](#backers)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ProgrammerKR/ProXtyle/js.yml?branch=main&label=JS%20Tests&logo=github)](https://github.com/ProgrammerKR/ProXtyle/actions/workflows/js.yml?query=workflow%3AJS+branch%3Amain)  
+[![npm version](https://img.shields.io/npm/v/ProXtyle/1.0.0?logo=npm&logoColor=fff)](https://www.npmjs.com/package/ProXtyle)  
+[![Gem version](https://img.shields.io/gem/v/ProXtyle?logo=rubygems&logoColor=fff)](https://rubygems.org/gems/ProXtyle)  
+[![Meteor Atmosphere](https://img.shields.io/badge/meteor-ProgrammerKR%3AProXtyle-blue?logo=meteor&logoColor=fff)](https://atmospherejs.com/ProgrammerKR/ProXtyle)  
+[![Packagist Prerelease](https://img.shields.io/packagist/vpre/ProgrammerKR/ProXtyle?logo=packagist&logoColor=fff)](https://packagist.org/packages/ProgrammerKR/ProXtyle)  
+[![NuGet](https://img.shields.io/nuget/vpre/ProXtyle?logo=nuget&logoColor=fff)](https://www.nuget.org/packages/ProXtyle/absoluteLatest)  
+[![Coverage Status](https://img.shields.io/coveralls/github/ProgrammerKR/ProXtyle/main?logo=coveralls&logoColor=fff)](https://coveralls.io/github/ProgrammerKR/ProXtyle?branch=main)  
+[![CSS gzip size](https://img.badgesize.io/ProgrammerKR/ProXtyle/main/dist/css/ProXtyle.min.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/ProgrammerKR/ProXtyle/blob/main/dist/css/ProXtyle.min.css)  
+[![CSS Brotli size](https://img.badgesize.io/ProgrammerKR/ProXtyle/main/dist/css/ProXtyle.min.css?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/ProgrammerKR/ProXtyle/blob/main/dist/css/ProXtyle.min.css)  
+[![JS gzip size](https://img.badgesize.io/ProgrammerKR/ProXtyle/main/dist/js/ProXtyle.min.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/ProgrammerKR/ProXtyle/blob/main/dist/js/ProXtyle.min.js)  
+[![JS Brotli size](https://img.badgesize.io/ProgrammerKR/ProXtyle/main/dist/js/ProXtyle.min.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/ProgrammerKR/ProXtyle/blob/main/dist/js/ProXtyle.min.js)  
 [![Sponsors on Open Collective](https://img.shields.io/opencollective/sponsors/ProXtyle?logo=opencollective&logoColor=fff)](#sponsors)
 
 
@@ -136,7 +131,7 @@ We provide compiled CSS and JS (`ProXtyle.*`), as well as compiled and minified 
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/ProXtyle/blob/main/.github/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/ProXtyle/issues/new/choose).
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/ProgrammerKR/ProXtyle/blob/main/.github/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/ProgrammerKR/ProXtyle/issues/new/choose).
 
 
 ## Documentation
@@ -158,25 +153,24 @@ Learn more about using Hugo by reading its [documentation](https://gohugo.io/doc
 
 You can find all our previous releases docs on <https://getProXtyle.com/docs/versions/>.
 
-[Previous releases](https://github.com/twbs/ProXtyle/releases) and their documentation are also available for download.
+[Previous releases](https://github.com/ProgrammerKR/ProXtyle/releases) and their documentation are also available for download.
 
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/twbs/ProXtyle/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/ProgrammerKR/ProXtyle/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/ProXtyle/tree/main/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
+Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/ProgrammerKR/ProXtyle/tree/main/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
-Editor preferences are available in the [editor config](https://github.com/twbs/ProXtyle/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+Editor preferences are available in the [editor config](https://github.com/ProgrammerKR/ProXtyle/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
 
 ## Community
 
 Get updates on Bootstrap's development and chat with the project maintainers and community members.
 
-- Follow [@getProXtyle on Twitter](https://twitter.com/getProXtyle).
-- Read and subscribe to [The Official Bootstrap Blog](https://blog.getProXtyle.com/).
-- Ask questions and explore [our GitHub Discussions](https://github.com/twbs/ProXtyle/discussions).
+- Follow [@getProXtyle on Twitter](https://twitter.com/@Prog_KaniahkRaj).
+- Ask questions and explore [our GitHub Discussions](https://github.com/ProgrammerKR/ProXtyle/discussions).
 - Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [Bootstrap subreddit](https://www.reddit.com/r/ProXtyle/).
 - Chat with fellow Bootstrappers in IRC. On the `irc.libera.chat` server, in the `#ProXtyle` channel.
 - Implementation help may be found at Stack Overflow (tagged [`ProXtyle-5`](https://stackoverflow.com/questions/tagged/ProXtyle-5)).
@@ -187,21 +181,7 @@ Get updates on Bootstrap's development and chat with the project maintainers and
 
 For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
 
-See [the Releases section of our GitHub project](https://github.com/twbs/ProXtyle/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](https://blog.getProXtyle.com/) contain summaries of the most noteworthy changes made in each release.
-
-
-## Creators
-
-**Mark Otto**
-
-- <https://twitter.com/mdo>
-- <https://github.com/mdo>
-
-**Jacob Thornton**
-
-- <https://twitter.com/fat>
-- <https://github.com/fat>
-
+See [the Releases section of our GitHub project](https://github.com/ProgrammerKR/ProXtyle/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official ProXtyle blog](https://blog.getProXtyle.com/) contain summaries of the most noteworthy changes made in each release.
 
 ## Thanks
 
@@ -217,30 +197,6 @@ Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infras
 
 Thanks to [Netlify](https://www.netlify.com/) for providing us with Deploy Previews!
 
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/ProXtyle#sponsor)]
-
-[![OC sponsor 0](https://opencollective.com/ProXtyle/sponsor/0/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/0/website)
-[![OC sponsor 1](https://opencollective.com/ProXtyle/sponsor/1/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/1/website)
-[![OC sponsor 2](https://opencollective.com/ProXtyle/sponsor/2/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/2/website)
-[![OC sponsor 3](https://opencollective.com/ProXtyle/sponsor/3/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/3/website)
-[![OC sponsor 4](https://opencollective.com/ProXtyle/sponsor/4/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/4/website)
-[![OC sponsor 5](https://opencollective.com/ProXtyle/sponsor/5/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/5/website)
-[![OC sponsor 6](https://opencollective.com/ProXtyle/sponsor/6/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/6/website)
-[![OC sponsor 7](https://opencollective.com/ProXtyle/sponsor/7/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/7/website)
-[![OC sponsor 8](https://opencollective.com/ProXtyle/sponsor/8/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/8/website)
-[![OC sponsor 9](https://opencollective.com/ProXtyle/sponsor/9/avatar.svg)](https://opencollective.com/ProXtyle/sponsor/9/website)
-
-
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/ProXtyle#backer)]
-
-[![Backers](https://opencollective.com/ProXtyle/backers.svg?width=890)](https://opencollective.com/ProXtyle#backers)
-
-
 ## Copyright and license
 
-Code and documentation copyright 2011-2025 the [Bootstrap Authors](https://github.com/twbs/ProXtyle/graphs/contributors). Code released under the [MIT License](https://github.com/twbs/ProXtyle/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+Code and documentation copyright 2011-2025 the [Bootstrap Authors](https://github.com/ProgrammerKR/ProXtyle/graphs/contributors). Code released under the [MIT License](https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
