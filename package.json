@@ -1,0 +1,99 @@
+{
+  "name": "ProXtyle",
+  "description": "A high-performance, lightweight CSS framework to design beautiful, responsive websites with ease.",
+  "version": "1.0.0",
+  "config": {
+    "version_short": "1.0"
+  },
+  "keywords": [
+    "css",
+    "responsive",
+    "framework",
+    "frontend",
+    "web design",
+    "proXtyle"
+  ],
+  "homepage": "https://proxtyle.com",
+  "author": "The ProXtyle Authors (https://github.com/ProgrammerKR/ProXtyle)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammerKR/ProXtyle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ProgrammerKR/ProXtyle/issues"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ProgrammerKR"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/proxtyle"
+    }
+  ],
+  "main": "dist/css/proxtyle.css",
+  "module": "dist/css/proxtyle.esm.css",
+  "sass": "scss/proxtyle.scss",
+  "style": "dist/css/proxtyle.css",
+  "scripts": {
+    "start": "npm-run-all --parallel watch docs-serve",
+    "css": "npm-run-all css-compile css-prefix css-minify",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/",
+    "css-lint": "stylelint \"**/*.{css,scss}\" --cache --cache-location .cache/.stylelintcache",
+    "css-minify": "npm-run-all --aggregate-output --parallel css-minify-*",
+    "css-minify-main": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix \".min\" \"dist/css/*.css\" \"!dist/css/*.min.css\"",
+    "css-prefix": "npm-run-all --aggregate-output --parallel css-prefix-*",
+    "css-prefix-main": "postcss --config build/postcss.config.mjs --replace \"dist/css/*.css\" \"!dist/css/*.rtl*.css\" \"!dist/css/*.min.css\"",
+    "js": "npm-run-all js-compile js-minify",
+    "js-compile": "npm-run-all --aggregate-output --parallel js-compile-*",
+    "js-minify": "npm-run-all --aggregate-output --parallel js-minify-*",
+    "js-minify-main": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/proxtyle.js.map,includeSources,url=proxtyle.min.js.map\" --output dist/js/proxtyle.min.js dist/js/proxtyle.js",
+    "docs": "npm-run-all docs-build docs-lint",
+    "docs-build": "hugo --cleanDestinationDir --printUnusedTemplates",
+    "docs-serve": "hugo server --port 9001 --disableFastRender --noHTTPCache --renderToMemory --printPathWarnings --printUnusedTemplates",
+    "test": "npm-run-all lint dist js-test docs-build docs-lint",
+    "dist": "npm-run-all --aggregate-output --parallel css js"
+  },
+  "peerDependencies": {
+    "@popperjs/core": "^2.11.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.10",
+    "autoprefixer": "^10.4.21",
+    "bundlewatch": "^0.4.0",
+    "cleancss-cli": "^5.6.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "postcss": "^8.5.3",
+    "sass": "1.78.0",
+    "stylelint": "^16.16.0",
+    "terser": "^5.39.0",
+    "hugo-bin": "^0.142.0",
+    "nodemon": "^3.1.9",
+    "rollup": "^4.36.0"
+  },
+  "files": [
+    "dist/{css,js}/*.{css,js,map}",
+    "scss/**/*.scss",
+    "!scss/tests/**"
+  ],
+  "jspm": {
+    "registry": "npm",
+    "main": "css/proxtyle",
+    "directories": {
+      "lib": "dist"
+    },
+    "shim": {
+      "css/proxtyle": {
+        "deps": [
+          "@popperjs/core"
+        ]
+      }
+    }
+  }
+      }

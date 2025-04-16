@@ -1,0 +1,99 @@
+languageCode:           "en"
+title:                  "ProXtyle"
+baseURL:                "https://proxstyle.com"
+
+security:
+  enableInlineShortcodes: true
+  funcs:
+    getenv:
+      - ^PROX_
+      - NETLIFY
+
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+  tableOfContents:
+    startLevel:         2
+    endLevel:           6
+
+build:
+  noJSConfigInAssets:   true
+
+buildDrafts:            true
+buildFuture:            true
+
+enableRobotsTXT:        true
+metaDataFormat:         "yaml"
+disableKinds:           ["404", "taxonomy", "term", "RSS"]
+
+publishDir:             "_site"
+
+module:
+  mounts:
+    - source:           dist
+      target:           static/docs/1.0/dist
+    - source:           site/assets
+      target:           assets
+    - source:           site/content
+      target:           content
+    - source:           site/data
+      target:           data
+    - source:           site/layouts
+      target:           layouts
+    - source:           site/static
+      target:           static
+    - source:           node_modules/@docsearch/css
+      target:           assets/scss/@docsearch/css
+    - source:           site/static/docs/1.0/assets/img/favicons/apple-touch-icon.png
+      target:           static/apple-touch-icon.png
+    - source:           site/static/docs/1.0/assets/img/favicons/favicon.ico
+      target:           static/favicon.ico
+
+params:
+  subtitle:             "A high-performance CSS framework for modern web designs."
+  description:          "ProXtyle is a fast, responsive, and customizable CSS framework to help developers create sleek, mobile-first web projects with ease."
+  authors:              "ProgrammerKR and ProXtyle Contributors"
+
+  current_version:      "1.0.0"
+  current_ruby_version: "1.0.0"
+  docs_version:         "1.0"
+  rfs_version:          "v1.0.0"
+  github_org:           "https://github.com/ProgrammerKR"
+  repo:                 "https://github.com/ProgrammerKR/ProXtyle"
+  twitter:              "proxstyle"
+  opencollective:       "https://opencollective.com/proxstyle"
+  blog:                 "https://blog.proxstyle.com/"
+  themes:               "https://themes.proxstyle.com/"
+  icons:                "https://icons.proxstyle.com/"
+  swag:                 "https://cottonbureau.com/people/proxstyle"
+
+  analytics:
+    fathom_site:        "PROX1234"
+
+  algolia:
+    appId:              "PROXALG1234"
+    apiKey:             "3151f502c7b9e9dafd5e6372b691a24e"
+    indexName:          "proxstyle"
+
+  download:
+    source:             "https://github.com/ProgrammerKR/ProXtyle/archive/v1.0.0.zip"
+    dist:               "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxstyle-1.0.0-dist.zip"
+    dist_examples:      "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxstyle-1.0.0-examples.zip"
+
+  cdn:
+    # See https://www.srihash.org for info on how to generate the hashes
+    css:              "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/css/proxstyle.min.css"
+    css_hash:         "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    css_rtl:          "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/css/proxstyle.rtl.min.css"
+    css_rtl_hash:     "sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+    js:               "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/js/proxstyle.min.js"
+    js_hash:          "sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    js_bundle:        "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/js/proxstyle.bundle.min.js"
+    js_bundle_hash:   "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+
+  anchors:
+    min: 2
+    max: 5

@@ -1,0 +1,8 @@
+# Enforce Unix newlines
+* text=auto eol=lf
+
+# Don't diff or textually merge source maps
+*.map binary
+
+proxtyle.css linguist-vendored=false
+ProXtyle.js linguist-vendored=false
