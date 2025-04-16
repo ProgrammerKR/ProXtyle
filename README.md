@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://getproxtyle.com/">
-    <img src="proxtyle-logo.png" alt="ProXtyle Logo" width="180" height="150">
+    <img src="site/assets/ProXtyle-logo.png" alt="ProXtyle Logo" width="500" height="300">
   </a>
 </p>
 
