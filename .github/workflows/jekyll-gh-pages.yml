@@ -24,16 +24,19 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Install dependencies
+        run: npm install  # Use npm install to install dependencies
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./site  # Corrected source folder (pointing to the folder with your Jekyll site)
-          destination: ./_site  # Destination folder for the built site
+          source: ./site  # Corrected source folder
+          destination: ./_site  # Destination folder inside the root directory
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site  # Upload the generated site to be deployed later
+          path: ./_site
 
   deploy:
     environment:
