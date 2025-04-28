@@ -18,17 +18,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./site  # Corrected source folder
-          destination: ./_site  # Destination folder inside the root directory
+          source: ./site  # Corrected source folder (pointing to the folder with your Jekyll site)
+          destination: ./_site  # Destination folder for the built site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site  # Upload the generated site to be deployed later
 
   deploy:
     environment:
