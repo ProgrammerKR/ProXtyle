@@ -6,7 +6,7 @@
 
 <h3 align="center">ProXtyle</h3>
 
-<p align="center">
+<p align="center" >
   A sleek, lightweight, and professional front-end framework for building modern, responsive websites with ease.
   <br>
   <a href="https://getproxtyle.com/docs/1.0/"><strong>Explore ProXtyle Docs »</strong></a>
