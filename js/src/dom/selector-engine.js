@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap dom/selector-engine.js
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -16,7 +16,7 @@ const getSelector = element => {
     // The only valid content that could double as a selector are IDs or classes,
     // so everything starting with `#` or `.`. If a "real" URL is used as the selector,
     // `document.querySelector` will rightfully complain it is invalid.
-    // See https://github.com/twbs/ProXtyle/issues/32273
+    // See https://github.com/ProgrammerKR/ProXtyle/issues/32273
     if (!hrefAttribute || (!hrefAttribute.includes('#') && !hrefAttribute.startsWith('.'))) {
       return null
     }

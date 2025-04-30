@@ -1,7 +1,7 @@
 /*!
-  * Bootstrap dropdown.js v5.3.3 (https://getProXtyle.com/)
-  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/ProXtyle/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+  * Bootstrap dropdown.js v1.0.1 (https://getProXtyle.com/)
+  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/ProgrammerKR/ProXtyle/graphs/contributors)
+  * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core'), require('./base-component.js'), require('./dom/event-handler.js'), require('./dom/manipulator.js'), require('./dom/selector-engine.js'), require('./util/index.js')) :
@@ -31,7 +31,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dropdown.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 

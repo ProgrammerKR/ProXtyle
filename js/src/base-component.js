@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap base-component.js
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -14,7 +14,7 @@ import { executeAfterTransition, getElement } from './util/index.js'
  * Constants
  */
 
-const VERSION = '5.3.3'
+const VERSION = '1.0.1'
 
 /**
  * Class definition

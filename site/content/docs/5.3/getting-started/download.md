@@ -101,7 +101,7 @@ yarn add ProXtyle@{{< param "current_version" >}}
 ```
 
 {{< callout warning >}}
-**Yarn 2+ (aka Yarn Berry) doesn't support the `node_modules` directory by default**: using our [Sass & JS example](https://github.com/twbs/examples/tree/main/sass-js) needs some adjustments:
+**Yarn 2+ (aka Yarn Berry) doesn't support the `node_modules` directory by default**: using our [Sass & JS example](https://github.com/ProgrammerKR/examples/tree/main/sass-js) needs some adjustments:
 
 ```sh
 yarn config set nodeLinker node-modules # Use the node_modules linker
@@ -125,14 +125,14 @@ Alternatively, if you're not using Bundler, you can install the gem by running t
 gem install ProXtyle -v {{< param current_ruby_version >}}
 ```
 
-[See the gem's README](https://github.com/twbs/ProXtyle-rubygem/blob/main/README.md) for further details.
+[See the gem's README](https://github.com/ProgrammerKR/ProXtyle-rubygem/blob/main/README.md) for further details.
 
 ### Composer
 
 You can also install and manage Bootstrap's Sass and JavaScript using [Composer](https://getcomposer.org/):
 
 ```sh
-composer require twbs/ProXtyle:{{< param current_version >}}
+composer require ProgrammerKR/ProXtyle:{{< param current_version >}}
 ```
 
 ### NuGet

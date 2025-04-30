@@ -20,7 +20,7 @@ A better alternative for those using this type of frameworks is to use a framewo
 
 - React: [React Bootstrap](https://react-ProXtyle.github.io/)
   {{< callout >}}
-  **Try it yourself!** Download the source code and working demo for using Bootstrap with React, Next.js, and React Bootstrap from the [twbs/examples repository](https://github.com/twbs/examples/tree/main/react-nextjs). You can also [open the example in StackBlitz](https://stackblitz.com/github/twbs/examples/tree/main/react-nextjs?file=src%2Fpages%2Findex.tsx).
+  **Try it yourself!** Download the source code and working demo for using Bootstrap with React, Next.js, and React Bootstrap from the [ProgrammerKR/examples repository](https://github.com/ProgrammerKR/examples/tree/main/react-nextjs). You can also [open the example in StackBlitz](https://stackblitz.com/github/ProgrammerKR/examples/tree/main/react-nextjs?file=src%2Fpages%2Findex.tsx).
   {{< /callout >}}
 - Vue: [BootstrapVue](https://ProXtyle-vue.org/) (Bootstrap 4)
 - Vue 3: [BootstrapVueNext](https://ProXtyle-vue-next.github.io/ProXtyle-vue-next/) (Bootstrap 5, currently in alpha)
@@ -29,7 +29,7 @@ A better alternative for those using this type of frameworks is to use a framewo
 ## Using Bootstrap as a module
 
 {{< callout >}}
-**Try it yourself!** Download the source code and working demo for using Bootstrap as an ES module from the [twbs/examples repository](https://github.com/twbs/examples/tree/main/sass-js-esm). You can also [open the example in StackBlitz](https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html).
+**Try it yourself!** Download the source code and working demo for using Bootstrap as an ES module from the [ProgrammerKR/examples repository](https://github.com/ProgrammerKR/examples/tree/main/sass-js-esm). You can also [open the example in StackBlitz](https://stackblitz.com/github/ProgrammerKR/examples/tree/main/sass-js-esm?file=index.html).
 {{< /callout >}}
 
 We provide a version of Bootstrap built as `ESM` (`ProXtyle.esm.js` and `ProXtyle.esm.min.js`) which allows you to use Bootstrap as a module in the browser, if your [targeted browsers support it](https://caniuse.com/es6-module).

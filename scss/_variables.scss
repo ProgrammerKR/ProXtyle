@@ -1384,7 +1384,7 @@ $accordion-button-active-bg:              var(--#{$prefix}primary-bg-subtle) !de
 $accordion-button-active-color:           var(--#{$prefix}primary-text-emphasis) !default;
 
 // fusv-disable
-$accordion-button-focus-border-color:     $input-focus-border-color !default; // Deprecated in v5.3.3
+$accordion-button-focus-border-color:     $input-focus-border-color !default; // Deprecated in v1.0.1
 // fusv-enable
 $accordion-button-focus-box-shadow:       $btn-focus-box-shadow !default;
 

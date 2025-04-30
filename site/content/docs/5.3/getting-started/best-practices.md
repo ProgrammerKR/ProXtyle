@@ -17,4 +17,4 @@ We've designed and developed Bootstrap to work in a number of environments. Here
 - Working with Sass files
 - Building new CSS components
 - Working with flexbox
-- Ask in [our GitHub Discussions](https://github.com/twbs/ProXtyle/discussions)
+- Ask in [our GitHub Discussions](https://github.com/ProgrammerKR/ProXtyle/discussions)

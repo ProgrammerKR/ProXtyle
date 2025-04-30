@@ -53,7 +53,7 @@
     min-width: 85px; // Seems to be a good minimum safe width
 
     // Add some height to date inputs on iOS
-    // https://github.com/twbs/ProXtyle/issues/23307
+    // https://github.com/ProgrammerKR/ProXtyle/issues/23307
     // TODO: we can remove this workaround once https://bugs.webkit.org/show_bug.cgi?id=198959 is resolved
     // Multiply line-height by 1em if it has no unit
     height: if(unit($input-line-height) == "", $input-line-height * 1em, $input-line-height);
@@ -65,7 +65,7 @@
   }
 
   // Prevent excessive date input height in Webkit
-  // https://github.com/twbs/ProXtyle/issues/34433
+  // https://github.com/ProgrammerKR/ProXtyle/issues/34433
   &::-webkit-datetime-edit {
     display: block;
     padding: 0;
@@ -74,7 +74,7 @@
   // Placeholder
   &::placeholder {
     color: $input-placeholder-color;
-    // Override Firefox's unusual default opacity; see https://github.com/twbs/ProXtyle/pull/11526.
+    // Override Firefox's unusual default opacity; see https://github.com/ProgrammerKR/ProXtyle/pull/11526.
     opacity: 1;
   }
 
@@ -87,7 +87,7 @@
     color: $input-disabled-color;
     background-color: $input-disabled-bg;
     border-color: $input-disabled-border-color;
-    // iOS fix for unreadable disabled content; see https://github.com/twbs/ProXtyle/issues/11655.
+    // iOS fix for unreadable disabled content; see https://github.com/ProgrammerKR/ProXtyle/issues/11655.
     opacity: 1;
   }
 
@@ -173,7 +173,7 @@
 }
 
 // Make sure textareas don't shrink too much when resized
-// https://github.com/twbs/ProXtyle/pull/29124
+// https://github.com/ProgrammerKR/ProXtyle/pull/29124
 // stylelint-disable selector-no-qualifying-type
 textarea {
   &.form-control {

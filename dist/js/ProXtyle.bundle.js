@@ -1,7 +1,7 @@
 /*!
-  * Bootstrap v5.3.3 (https://getProXtyle.com/)
-  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/ProXtyle/graphs/contributors)
-  * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+  * Bootstrap v1.0.1 (https://getProXtyle.com/)
+  * Copyright 2011-2024 The Bootstrap Authors (https://github.com/ProgrammerKR/ProXtyle/graphs/contributors)
+  * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
   */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -12,7 +12,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dom/data.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -60,7 +60,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/index.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -306,7 +306,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dom/event-handler.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -528,7 +528,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dom/manipulator.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -585,7 +585,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/config.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -638,7 +638,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap base-component.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -647,7 +647,7 @@
    * Constants
    */
 
-  const VERSION = '5.3.3';
+  const VERSION = '1.0.1';
 
   /**
    * Class definition
@@ -707,7 +707,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dom/selector-engine.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -719,7 +719,7 @@
       // The only valid content that could double as a selector are IDs or classes,
       // so everything starting with `#` or `.`. If a "real" URL is used as the selector,
       // `document.querySelector` will rightfully complain it is invalid.
-      // See https://github.com/twbs/ProXtyle/issues/32273
+      // See https://github.com/ProgrammerKR/ProXtyle/issues/32273
       if (!hrefAttribute || !hrefAttribute.includes('#') && !hrefAttribute.startsWith('.')) {
         return null;
       }
@@ -796,7 +796,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/component-functions.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -821,7 +821,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap alert.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -896,7 +896,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap button.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -960,7 +960,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/swipe.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -1080,7 +1080,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap carousel.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -1453,7 +1453,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap collapse.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -3526,7 +3526,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap dropdown.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -3894,7 +3894,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/backdrop.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4018,7 +4018,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/focustrap.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4116,7 +4116,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/scrollBar.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4214,7 +4214,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap modal.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4519,7 +4519,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap offcanvas.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4750,7 +4750,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/sanitizer.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4846,7 +4846,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap util/template-factory.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -4982,7 +4982,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap tooltip.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -5494,7 +5494,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap popover.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -5575,7 +5575,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap scrollspy.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -5835,7 +5835,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap tab.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -6105,7 +6105,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap toast.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 
@@ -6289,7 +6289,7 @@
   /**
    * --------------------------------------------------------------------------
    * Bootstrap index.umd.js
-   * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+   * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
 

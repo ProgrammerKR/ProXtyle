@@ -6,7 +6,7 @@
  * otherwise the hashes won't match!
  *
  * Copyright 2017-2025 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  */
 
 import crypto from 'node:crypto'

@@ -3,7 +3,7 @@
 /*!
  * Script to build our plugins to use them separately.
  * Copyright 2020-2025 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  */
 
 import path from 'node:path'

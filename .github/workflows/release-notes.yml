@@ -16,7 +16,7 @@ jobs:
       contents: write
       pull-requests: write
     runs-on: ubuntu-latest
-    if: github.repository == 'twbs/ProXtyle'
+    if: github.repository == 'ProgrammerKR/ProXtyle'
     steps:
       - uses: release-drafter/release-drafter@v6
         env:

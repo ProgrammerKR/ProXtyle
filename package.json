@@ -1,7 +1,7 @@
 {
   "name": "ProXtyle",
   "description": "A high-performance, lightweight CSS framework to design beautiful, responsive websites with ease.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "config": {
     "version_short": "1.0"
   },

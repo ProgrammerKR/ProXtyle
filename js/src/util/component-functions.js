@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Bootstrap util/component-functions.js
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 

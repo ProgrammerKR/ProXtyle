@@ -165,7 +165,7 @@ After running Sass then RTLCSS, each selector in your CSS files will be prepende
 
 1. When switching `.ltr` and `.rtl`, make sure you add `dir` and `lang` attributes accordingly.
 2. Loading both files can be a real performance bottleneck: consider some [optimization]({{< docsref "/customize/optimize" >}}), and maybe try to [load one of those files asynchronously](https://www.filamentgroup.com/lab/load-css-simpler/).
-3. Nesting styles this way will prevent our `form-validation-state()` mixin from working as intended, thus require you tweak it a bit by yourself. [See #31223](https://github.com/twbs/ProXtyle/issues/31223).
+3. Nesting styles this way will prevent our `form-validation-state()` mixin from working as intended, thus require you tweak it a bit by yourself. [See #31223](https://github.com/ProgrammerKR/ProXtyle/issues/31223).
 {{< /callout >}}
 
 Do you want to automate this process and address several edge cases involving both directions within a single stylesheet? Then, consider using [PostCSS RTLCSS](https://github.com/elchininet/postcss-rtlcss) as a [PostCSS](https://github.com/postcss/postcss) plugin to process your source files. PostCSS RTLCSS uses [RTLCSS](https://rtlcss.com) behind the scenes to manage the direction flipping process, but it separates the flipped declarations into rules with a different prefix for LTR and RTL, something that allows you to have both directions within the same stylesheet file. By doing this, you can switch between LTR and RTL orientations by simply changing the `dir` of the page (or even by modifying a specific class if you configure the plugin accordingly).

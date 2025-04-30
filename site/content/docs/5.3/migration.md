@@ -85,17 +85,17 @@ If you're migrating from our previous alpha release of v5.3.0, please review the
 
 - Improved included JavaScript for live Toast demo.
 
-- Added `twbs/examples` repo contents to the top of the Examples page.
+- Added `ProgrammerKR/examples` repo contents to the top of the Examples page.
 
 ### Tooling
 
 - Added SCSS testing via True to help test our utilities API and other customizations.
 
-- Replaced instances of our ProXtyle-npm-starter project with the newer and more complete [twbs/examples repo](https://github.com/twbs/examples).
+- Replaced instances of our ProXtyle-npm-starter project with the newer and more complete [ProgrammerKR/examples repo](https://github.com/ProgrammerKR/examples).
 
 <hr class="mb-4">
 
-For a complete list of changes, [see the v5.3.0-alpha2 project on GitHub](https://github.com/orgs/twbs/projects/13).
+For a complete list of changes, [see the v5.3.0-alpha2 project on GitHub](https://github.com/orgs/ProgrammerKR/projects/13).
 
 ## v5.3.0-alpha1
 
@@ -238,7 +238,7 @@ We've also introduced a new `.progress-stacked` class to more logically wrap [mu
 
 - [Box shadow utilities]({{< docsref "/utilities/shadows" >}}) (and Sass variables) have been updated for dark mode. They now use `--bs-body-color-rgb` to generate the `rgba()` color values, allowing them to easily adapt to color modes based on the specified foreground color.
 
-For a complete list of changes, [see the v5.3.0 project on GitHub](https://github.com/twbs/ProXtyle/projects/).
+For a complete list of changes, [see the v5.3.0 project on GitHub](https://github.com/ProgrammerKR/ProXtyle/projects/).
 
 ## v5.2.0
 
@@ -313,7 +313,7 @@ Your custom Bootstrap CSS builds should now look something like this with a sepa
 
 - **Thicker table dividers are now opt-in. —** We've removed the thicker and more difficult to override border between table groups and moved it to an optional class you can apply, `.table-group-divider`. [See the table docs for an example.]({{< docsref "/content/tables#table-group-dividers" >}})
 
-- **[Scrollspy has been rewritten](https://github.com/twbs/ProXtyle/pull/33421) to use the Intersection Observer API**, which means you no longer need relative parent wrappers, deprecates `offset` config, and more. Look for your Scrollspy implementations to be more accurate and consistent in their nav highlighting.
+- **[Scrollspy has been rewritten](https://github.com/ProgrammerKR/ProXtyle/pull/33421) to use the Intersection Observer API**, which means you no longer need relative parent wrappers, deprecates `offset` config, and more. Look for your Scrollspy implementations to be more accurate and consistent in their nav highlighting.
 
 - **Popovers and tooltips now use CSS variables.** Some CSS variables have been updated from their Sass counterparts to reduce the number of variables. As a result, three variables have been deprecated in this release: `$popover-arrow-color`, `$popover-arrow-outer-color`, and `$tooltip-arrow-color`.
 
@@ -323,7 +323,7 @@ Your custom Bootstrap CSS builds should now look something like this with a sepa
 
 - Added [striped columns]({{< docsref "/content/tables#striped-columns" >}}) support to tables via the new `.table-striped-columns` class.
 
-For a complete list of changes, [see the v5.2.0 project on GitHub](https://github.com/twbs/ProXtyle/projects/32).
+For a complete list of changes, [see the v5.2.0 project on GitHub](https://github.com/ProgrammerKR/ProXtyle/projects/32).
 
 ## v5.1.0
 
@@ -391,7 +391,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - We've ditched the default Sass map merges to make it easier to remove redundant values. Keep in mind you now have to define all values in the Sass maps like `$theme-colors`. Check out how to deal with [Sass maps]({{< docsref "/customize/sass#maps-and-loops" >}}).
 
-- <span class="badge text-bg-danger">Breaking</span> Renamed `color-yiq()` function and related variables to `color-contrast()` as it's no longer related to YIQ color space. [See #30168.](https://github.com/twbs/ProXtyle/pull/30168/)
+- <span class="badge text-bg-danger">Breaking</span> Renamed `color-yiq()` function and related variables to `color-contrast()` as it's no longer related to YIQ color space. [See #30168.](https://github.com/ProgrammerKR/ProXtyle/pull/30168/)
   - `$yiq-contrasted-threshold` is renamed to `$min-contrast-ratio`.
   - `$yiq-text-dark` and `$yiq-text-light` are respectively renamed to `$color-contrast-dark` and `$color-contrast-light`.
 
@@ -399,11 +399,11 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
   - `media-breakpoint-down()` uses the breakpoint itself instead of the next breakpoint (e.g., `media-breakpoint-down(lg)` instead of `media-breakpoint-down(md)` targets viewports smaller than `lg`).
   - Similarly, the second parameter in `media-breakpoint-between()` also uses the breakpoint itself instead of the next breakpoint (e.g., `media-breakpoint-between(sm, lg)` instead of `media-breakpoint-between(sm, md)` targets viewports between `sm` and `lg`).
 
-- <span class="badge text-bg-danger">Breaking</span> Removed print styles and `$enable-print-styles` variable. Print display classes are still around. [See #28339](https://github.com/twbs/ProXtyle/pull/28339).
+- <span class="badge text-bg-danger">Breaking</span> Removed print styles and `$enable-print-styles` variable. Print display classes are still around. [See #28339](https://github.com/ProgrammerKR/ProXtyle/pull/28339).
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `color()`, `theme-color()`, and `gray()` functions in favor of variables. [See #29083](https://github.com/twbs/ProXtyle/pull/29083).
+- <span class="badge text-bg-danger">Breaking</span> Dropped `color()`, `theme-color()`, and `gray()` functions in favor of variables. [See #29083](https://github.com/ProgrammerKR/ProXtyle/pull/29083).
 
-- <span class="badge text-bg-danger">Breaking</span> Renamed `theme-color-level()` function to `color-level()` and now accepts any color you want instead of only `$theme-color` colors. [See #29083](https://github.com/twbs/ProXtyle/pull/29083) **Watch out:** `color-level()` was later on dropped in `v5.0.0-alpha3`.
+- <span class="badge text-bg-danger">Breaking</span> Renamed `theme-color-level()` function to `color-level()` and now accepts any color you want instead of only `$theme-color` colors. [See #29083](https://github.com/ProgrammerKR/ProXtyle/pull/29083) **Watch out:** `color-level()` was later on dropped in `v5.0.0-alpha3`.
 
 - <span class="badge text-bg-danger">Breaking</span> Renamed `$enable-prefers-reduced-motion-media-query` and `$enable-pointer-cursor-for-buttons` to `$enable-reduced-motion` and `$enable-button-pointers` for brevity.
 
@@ -421,13 +421,13 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - <span class="badge text-bg-danger">Breaking</span> Renamed `scale-color()` function to `shift-color()` to avoid collision with Sass's own color scaling function.
 
-- `box-shadow` mixins now allow `null` values and drop `none` from multiple arguments. [See #30394](https://github.com/twbs/ProXtyle/pull/30394).
+- `box-shadow` mixins now allow `null` values and drop `none` from multiple arguments. [See #30394](https://github.com/ProgrammerKR/ProXtyle/pull/30394).
 
 - The `border-radius()` mixin now has a default value.
 
 ### Color system
 
-- The color system which worked with `color-level()` and `$theme-color-interval` was removed in favor of a new color system. All `lighten()` and `darken()` functions in our codebase are replaced by `tint-color()` and `shade-color()`. These functions will mix the color with either white or black instead of changing its lightness by a fixed amount. The `shift-color()` will either tint or shade a color depending on whether its weight parameter is positive or negative. [See #30622](https://github.com/twbs/ProXtyle/pull/30622) for more details.
+- The color system which worked with `color-level()` and `$theme-color-interval` was removed in favor of a new color system. All `lighten()` and `darken()` functions in our codebase are replaced by `tint-color()` and `shade-color()`. These functions will mix the color with either white or black instead of changing its lightness by a fixed amount. The `shift-color()` will either tint or shade a color depending on whether its weight parameter is positive or negative. [See #30622](https://github.com/ProgrammerKR/ProXtyle/pull/30622) for more details.
 
 - Added new tints and shades for every color, providing nine separate colors for each base color, as new Sass variables.
 
@@ -447,11 +447,11 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped several `.order-*` classes that often went unused. We now only provide `.order-0` to `.order-5` out of the box.
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped the `.media` component as it can be easily replicated with utilities. [See #28265](https://github.com/twbs/ProXtyle/pull/28265) and the [flex utilities page for an example]({{< docsref "/utilities/flex#media-object" >}}).
+- <span class="badge text-bg-danger">Breaking</span> Dropped the `.media` component as it can be easily replicated with utilities. [See #28265](https://github.com/ProgrammerKR/ProXtyle/pull/28265) and the [flex utilities page for an example]({{< docsref "/utilities/flex#media-object" >}}).
 
 - <span class="badge text-bg-danger">Breaking</span> `ProXtyle-grid.css` now only applies `box-sizing: border-box` to the column instead of resetting the global box-sizing. This way, our grid styles can be used in more places without interference.
 
-- `$enable-grid-classes` no longer disables the generation of container classes anymore. [See #29146.](https://github.com/twbs/ProXtyle/pull/29146)
+- `$enable-grid-classes` no longer disables the generation of container classes anymore. [See #29146.](https://github.com/ProgrammerKR/ProXtyle/pull/29146)
 
 - Updated the `make-col` mixin to default to equal columns without a specified size.
 
@@ -475,17 +475,17 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - Split table cell padding variables into `-y` and `-x`.
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.pre-scrollable` class. [See #29135](https://github.com/twbs/ProXtyle/pull/29135)
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.pre-scrollable` class. [See #29135](https://github.com/ProgrammerKR/ProXtyle/pull/29135)
 
-- <span class="badge text-bg-danger">Breaking</span> `.text-*` utilities do not add hover and focus states to links anymore. `.link-*` helper classes can be used instead. [See #29267](https://github.com/twbs/ProXtyle/pull/29267)
+- <span class="badge text-bg-danger">Breaking</span> `.text-*` utilities do not add hover and focus states to links anymore. `.link-*` helper classes can be used instead. [See #29267](https://github.com/ProgrammerKR/ProXtyle/pull/29267)
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.text-justify` class. [See #29793](https://github.com/twbs/ProXtyle/pull/29793)
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.text-justify` class. [See #29793](https://github.com/ProgrammerKR/ProXtyle/pull/29793)
 
 - <span class="badge text-bg-danger">Breaking</span> ~~`<hr>` elements now use `height` instead of `border` to better support the `size` attribute. This also enables use of padding utilities to create thicker dividers (e.g., `<hr class="py-1">`).~~
 
 - Reset default horizontal `padding-left` on `<ul>` and `<ol>` elements from browser default `40px` to `2rem`.
 
-- Added `$enable-smooth-scroll`, which applies `scroll-behavior: smooth` globally—except for users asking for reduced motion through `prefers-reduced-motion` media query. [See #31877](https://github.com/twbs/ProXtyle/pull/31877)
+- Added `$enable-smooth-scroll`, which applies `scroll-behavior: smooth` globally—except for users asking for reduced motion through `prefers-reduced-motion` media query. [See #31877](https://github.com/ProgrammerKR/ProXtyle/pull/31877)
 
 ### RTL
 
@@ -506,7 +506,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped `.input-group-append` and `.input-group-prepend`. You can now just add buttons and `.input-group-text` as direct children of the input groups.
 
-- The longstanding [Missing border radius on input group with validation feedback bug](https://github.com/twbs/ProXtyle/issues/25110) is finally fixed by adding an additional `.has-validation` class to input groups with validation.
+- The longstanding [Missing border radius on input group with validation feedback bug](https://github.com/ProgrammerKR/ProXtyle/issues/25110) is finally fixed by adding an additional `.has-validation` class to input groups with validation.
 
 - <span class="badge text-bg-danger">Breaking</span> **Dropped form-specific layout classes for our grid system.** Use our grid and utilities instead of `.form-group`, `.form-row`, or `.form-inline`.
 
@@ -524,7 +524,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 ### Components
 
-- Unified `padding` values for alerts, breadcrumbs, cards, dropdowns, list groups, modals, popovers, and tooltips to be based on our `$spacer` variable. [See #30564](https://github.com/twbs/ProXtyle/pull/30564).
+- Unified `padding` values for alerts, breadcrumbs, cards, dropdowns, list groups, modals, popovers, and tooltips to be based on our `$spacer` variable. [See #30564](https://github.com/ProgrammerKR/ProXtyle/pull/30564).
 
 #### Accordion
 
@@ -554,7 +554,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 #### Buttons
 
-- <span class="badge text-bg-danger">Breaking</span> **[Toggle buttons]({{< docsref "/forms/checks-radios#toggle-buttons" >}}), with checkboxes or radios, no longer require JavaScript and have new markup.** We no longer require a wrapping element, add `.btn-check` to the `<input>`, and pair it with any `.btn` classes on the `<label>`. [See #30650](https://github.com/twbs/ProXtyle/pull/30650). _The docs for this has moved from our Buttons page to the new Forms section._
+- <span class="badge text-bg-danger">Breaking</span> **[Toggle buttons]({{< docsref "/forms/checks-radios#toggle-buttons" >}}), with checkboxes or radios, no longer require JavaScript and have new markup.** We no longer require a wrapping element, add `.btn-check` to the `<input>`, and pair it with any `.btn` classes on the `<label>`. [See #30650](https://github.com/ProgrammerKR/ProXtyle/pull/30650). _The docs for this has moved from our Buttons page to the new Forms section._
 
 - <span class="badge text-bg-danger">Breaking</span> **Dropped `.btn-block` for utilities.** Instead of using `.btn-block` on the `.btn`, wrap your buttons with `.d-grid` and a `.gap-*` utility to space them as needed. Switch to responsive classes for even more control over them. [Read the docs for some examples.]({{< docsref "/components/buttons#block-buttons" >}})
 
@@ -568,7 +568,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - <span class="badge text-bg-danger">Breaking</span> Dropped `.card-deck` in favor of our grid. Wrap your cards in column classes and add a parent `.row-cols-*` container to recreate card decks (but with more control over responsive alignment).
 
-- <span class="badge text-bg-danger">Breaking</span> Dropped `.card-columns` in favor of Masonry. [See #28922](https://github.com/twbs/ProXtyle/pull/28922).
+- <span class="badge text-bg-danger">Breaking</span> Dropped `.card-columns` in favor of Masonry. [See #28922](https://github.com/ProgrammerKR/ProXtyle/pull/28922).
 
 - <span class="badge text-bg-danger">Breaking</span> Replaced the `.card` based accordion with a [new Accordion component]({{< docsref "/components/accordion" >}}).
 
@@ -643,7 +643,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 #### Spinners
 
-- Spinners now honor `prefers-reduced-motion: reduce` by slowing down animations. [See #31882](https://github.com/twbs/ProXtyle/pull/31882).
+- Spinners now honor `prefers-reduced-motion: reduce` by slowing down animations. [See #31882](https://github.com/ProgrammerKR/ProXtyle/pull/31882).
 
 - Improved spinner vertical alignment.
 
@@ -695,7 +695,7 @@ Want more information? [Read the v5.1.0 blog post.](https://blog.getProXtyle.com
 
 - Added `.d-grid` to display utilities and new `gap` utilities (`.gap`) for CSS Grid and flexbox layouts.
 
-- <span class="badge text-bg-danger">Breaking</span> Removed `.rounded-sm` and `rounded-lg`, and introduced a new scale of classes, `.rounded-0` to `.rounded-3`. [See #31687](https://github.com/twbs/ProXtyle/pull/31687).
+- <span class="badge text-bg-danger">Breaking</span> Removed `.rounded-sm` and `rounded-lg`, and introduced a new scale of classes, `.rounded-0` to `.rounded-3`. [See #31687](https://github.com/ProgrammerKR/ProXtyle/pull/31687).
 
 - Added new `line-height` utilities: `.lh-1`, `.lh-sm`, `.lh-base` and `.lh-lg`. See [here]({{< docsref "/utilities/text#line-height" >}}).
 

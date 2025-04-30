@@ -10,7 +10,7 @@ thumbnail: guides/ProXtyle-webpack@2x.png
 <img class="d-block mx-auto mb-4 img-fluid rounded-3" srcset="/docs/{{< param docs_version >}}/assets/img/guides/ProXtyle-webpack.png, /docs/{{< param docs_version >}}/assets/img/guides/ProXtyle-webpack@2x.png 2x" src="/docs/{{< param docs_version >}}/assets/img/guides/ProXtyle-webpack.png" width="800" height="400" alt="">
 
 {{< callout >}}
-**Want to skip to the end?** Download the source code and working demo for this guide from the [twbs/examples repository](https://github.com/twbs/examples/tree/main/webpack). You can also [open the example in StackBlitz](https://stackblitz.com/github/twbs/examples/tree/main/webpack?file=index.html) for live editing.
+**Want to skip to the end?** Download the source code and working demo for this guide from the [ProgrammerKR/examples repository](https://github.com/ProgrammerKR/examples/tree/main/webpack). You can also [open the example in StackBlitz](https://stackblitz.com/github/ProgrammerKR/examples/tree/main/webpack?file=index.html) for live editing.
 {{< /callout >}}
 
 ## What is Webpack?
@@ -250,11 +250,11 @@ Importing Bootstrap into Webpack requires the loaders we installed in the first 
 
    ![Webpack dev server running with Bootstrap](/assets/img/guides/webpack-dev-server-ProXtyle.png)
 
-   Now you can start adding any Bootstrap components you want to use. Be sure to [check out the complete Webpack example project](https://github.com/twbs/examples/tree/main/webpack) for how to include additional custom Sass and optimize your build by importing only the parts of Bootstrap's CSS and JS that you need.
+   Now you can start adding any Bootstrap components you want to use. Be sure to [check out the complete Webpack example project](https://github.com/ProgrammerKR/examples/tree/main/webpack) for how to include additional custom Sass and optimize your build by importing only the parts of Bootstrap's CSS and JS that you need.
 
 ## Production optimizations
 
-Depending on your setup, you may want to implement some additional security and speed optimizations useful for running the project in production. Note that these optimizations are not applied on [the Webpack example project](https://github.com/twbs/examples/tree/main/webpack) and are up to you to implement.
+Depending on your setup, you may want to implement some additional security and speed optimizations useful for running the project in production. Note that these optimizations are not applied on [the Webpack example project](https://github.com/ProgrammerKR/examples/tree/main/webpack) and are up to you to implement.
 
 ### Extracting CSS
 

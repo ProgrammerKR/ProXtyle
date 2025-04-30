@@ -147,7 +147,7 @@ For improved cross-browser rendering, we use [Reboot]({{< docsref "/content/rebo
 Stay up-to-date on the development of Bootstrap and reach out to the community with these helpful resources.
 
 - Read and subscribe to [The Official Bootstrap Blog]({{< param blog >}}).
-- Ask questions and explore [our GitHub Discussions](https://github.com/twbs/ProXtyle/discussions).
+- Ask questions and explore [our GitHub Discussions](https://github.com/ProgrammerKR/ProXtyle/discussions).
 - Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [Bootstrap subreddit](https://www.reddit.com/r/ProXtyle/).
 - Chat with fellow Bootstrappers in IRC. On the `irc.libera.chat` server, in the `#ProXtyle` channel.
 - Implementation help may be found at Stack Overflow (tagged [`ProXtyle-5`](https://stackoverflow.com/questions/tagged/ProXtyle-5)).

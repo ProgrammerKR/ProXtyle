@@ -10,7 +10,7 @@ aliases:
 
 ## Team
 
-Bootstrap is maintained by a [small team of developers](https://github.com/orgs/twbs/people) on GitHub. We're actively looking to grow this team and would love to hear from you if you're excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
+Bootstrap is maintained by a [small team of developers](https://github.com/orgs/ProgrammerKR/people) on GitHub. We're actively looking to grow this team and would love to hear from you if you're excited about CSS at scale, writing and maintaining vanilla JavaScript plugins, and improving build tooling processes for frontend code.
 
 ## History
 

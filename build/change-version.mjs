@@ -3,7 +3,7 @@
 /*!
  * Script to update version number references in the project.
  * Copyright 2017-2025 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  */
 
 import { execFile } from 'node:child_process'

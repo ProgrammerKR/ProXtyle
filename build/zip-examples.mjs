@@ -4,7 +4,7 @@
  * Script to create the built examples zip archive;
  * requires the `zip` command to be present!
  * Copyright 2020-2025 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/ProXtyle/blob/main/LICENSE)
+ * Licensed under MIT (https://github.com/ProgrammerKR/ProXtyle/blob/main/LICENSE)
  */
 
 import fs from 'node:fs/promises'
