@@ -1,6 +1,6 @@
 languageCode:           "en"
 title:                  "ProXtyle"
-baseURL:                "https://proxstyle.com"
+baseURL:                "https://proxtyle.com"
 
 security:
   enableInlineShortcodes: true
@@ -63,12 +63,12 @@ params:
   rfs_version:          "v1.0.0"
   github_org:           "https://github.com/ProgrammerKR"
   repo:                 "https://github.com/ProgrammerKR/ProXtyle"
-  twitter:              "proxstyle"
-  opencollective:       "https://opencollective.com/proxstyle"
-  blog:                 "https://blog.proxstyle.com/"
-  themes:               "https://themes.proxstyle.com/"
-  icons:                "https://icons.proxstyle.com/"
-  swag:                 "https://cottonbureau.com/people/proxstyle"
+  twitter:              "proxtyle"
+  opencollective:       "https://opencollective.com/proxtyle"
+  blog:                 "https://blog.proxtyle.com/"
+  themes:               "https://themes.proxtyle.com/"
+  icons:                "https://icons.proxtyle.com/"
+  swag:                 "https://cottonbureau.com/people/proxtyle"
 
   analytics:
     fathom_site:        "PROX1234"
@@ -76,22 +76,22 @@ params:
   algolia:
     appId:              "PROXALG1234"
     apiKey:             "3151f502c7b9e9dafd5e6372b691a24e"
-    indexName:          "proxstyle"
+    indexName:          "proxtyle"
 
   download:
     source:             "https://github.com/ProgrammerKR/ProXtyle/archive/v1.0.0.zip"
-    dist:               "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxstyle-1.0.0-dist.zip"
-    dist_examples:      "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxstyle-1.0.0-examples.zip"
+    dist:               "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxtyle-1.0.0-dist.zip"
+    dist_examples:      "https://github.com/ProgrammerKR/ProXtyle/releases/download/v1.0.0/proxtyle-1.0.0-examples.zip"
 
   cdn:
     # See https://www.srihash.org for info on how to generate the hashes
-    css:              "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/css/proxstyle.min.css"
+    css:              "https://cdn.jsdelivr.net/npm/proxtyle@1.0.0/dist/css/proxtyle.min.css"
     css_hash:         "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    css_rtl:          "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/css/proxstyle.rtl.min.css"
+    css_rtl:          "https://cdn.jsdelivr.net/npm/proxtyle@1.0.0/dist/css/proxtyle.rtl.min.css"
     css_rtl_hash:     "sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
-    js:               "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/js/proxstyle.min.js"
+    js:               "https://cdn.jsdelivr.net/npm/proxtyle@1.0.0/dist/js/proxtyle.min.js"
     js_hash:          "sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    js_bundle:        "https://cdn.jsdelivr.net/npm/proxstyle@1.0.0/dist/js/proxstyle.bundle.min.js"
+    js_bundle:        "https://cdn.jsdelivr.net/npm/proxtyle@1.0.0/dist/js/proxtyle.bundle.min.js"
     js_bundle_hash:   "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 
   anchors:

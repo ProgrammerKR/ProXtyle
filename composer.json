@@ -11,7 +11,7 @@
     "design",
     "customizable"
   ],
-  "homepage": "https://proxstyle.com/",
+  "homepage": "https://proxtyle.com/",
   "authors": [
     {
       "name": "ProgrammerKR",
@@ -23,6 +23,6 @@
   },
   "license": "MIT",
   "replace": {
-    "proxstyle": "self.version"
+    "proxtyle": "self.version"
   }
 }
